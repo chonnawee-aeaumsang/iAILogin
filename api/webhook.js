@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 
 const TOKEN = process.env.BOT_TOKEN;
 const gameName = "iAIRobotGame"; // Replace with your game's short name
-const gameUrl = "https://i-ai-swipe.vercel.app/"; // Your game URL
+const gameUrl = "https://i-ai-login.vercel.app/"; // Your game URL
 
 const bot = new TelegramBot(TOKEN, { polling: false });
 
